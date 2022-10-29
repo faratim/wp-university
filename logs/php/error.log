@@ -1,0 +1,74 @@
+[26-Oct-2022 20:03:15 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[26-Oct-2022 20:03:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[26-Oct-2022 22:15:47 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 8
+[26-Oct-2022 23:30:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 6
+[27-Oct-2022 01:54:07 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[27-Oct-2022 23:03:07 UTC] PHP Parse error:  syntax error, unexpected '">About Us</a></li>' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 18
+[27-Oct-2022 23:16:43 UTC] PHP Parse error:  syntax error, unexpected '/' in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 20
+[27-Oct-2022 23:25:01 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 22
+[27-Oct-2022 23:25:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 26
+[28-Oct-2022 03:09:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/update.php on line 172
+[28-Oct-2022 03:09:30 UTC] PHP Stack trace:
+[28-Oct-2022 03:09:30 UTC] PHP   1. {main}() /Users/faratim/Local Sites/fictional-university/app/public/wp-cron.php:0
+[28-Oct-2022 03:09:30 UTC] PHP   2. do_action_ref_array() /Users/faratim/Local Sites/fictional-university/app/public/wp-cron.php:138
+[28-Oct-2022 03:09:30 UTC] PHP   3. WP_Hook->do_action() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/plugin.php:524
+[28-Oct-2022 03:09:30 UTC] PHP   4. WP_Hook->apply_filters() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:331
+[28-Oct-2022 03:09:30 UTC] PHP   5. wp_version_check() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:307
+[28-Oct-2022 03:09:30 UTC] PHP   6. trigger_error() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/update.php:172
+[28-Oct-2022 03:09:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/update.php on line 410
+[28-Oct-2022 03:09:30 UTC] PHP Stack trace:
+[28-Oct-2022 03:09:30 UTC] PHP   1. {main}() /Users/faratim/Local Sites/fictional-university/app/public/wp-cron.php:0
+[28-Oct-2022 03:09:30 UTC] PHP   2. do_action_ref_array() /Users/faratim/Local Sites/fictional-university/app/public/wp-cron.php:138
+[28-Oct-2022 03:09:30 UTC] PHP   3. WP_Hook->do_action() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/plugin.php:524
+[28-Oct-2022 03:09:30 UTC] PHP   4. WP_Hook->apply_filters() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:331
+[28-Oct-2022 03:09:30 UTC] PHP   5. wp_update_plugins() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:307
+[28-Oct-2022 03:09:30 UTC] PHP   6. trigger_error() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/update.php:410
+[28-Oct-2022 03:09:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/update.php on line 690
+[28-Oct-2022 03:09:30 UTC] PHP Stack trace:
+[28-Oct-2022 03:09:30 UTC] PHP   1. {main}() /Users/faratim/Local Sites/fictional-university/app/public/wp-cron.php:0
+[28-Oct-2022 03:09:30 UTC] PHP   2. do_action_ref_array() /Users/faratim/Local Sites/fictional-university/app/public/wp-cron.php:138
+[28-Oct-2022 03:09:30 UTC] PHP   3. WP_Hook->do_action() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/plugin.php:524
+[28-Oct-2022 03:09:30 UTC] PHP   4. WP_Hook->apply_filters() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:331
+[28-Oct-2022 03:09:30 UTC] PHP   5. wp_update_themes() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:307
+[28-Oct-2022 03:09:30 UTC] PHP   6. trigger_error() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/update.php:690
+[28-Oct-2022 23:01:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 44
+[28-Oct-2022 23:02:05 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 44
+[29-Oct-2022 13:21:49 UTC] PHP Parse error:  syntax error, unexpected 'add_theme_support' (T_STRING) in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 17
+[29-Oct-2022 13:21:57 UTC] PHP Parse error:  syntax error, unexpected 'add_theme_support' (T_STRING) in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 17
+[29-Oct-2022 13:32:20 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 307
+[29-Oct-2022 13:32:20 UTC] PHP Stack trace:
+[29-Oct-2022 13:32:20 UTC] PHP   1. {main}() /Users/faratim/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0
+[29-Oct-2022 13:32:20 UTC] PHP   2. require_once() /Users/faratim/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:22
+[29-Oct-2022 13:32:20 UTC] PHP   3. require_once() /Users/faratim/Local Sites/fictional-university/app/public/wp-load.php:50
+[29-Oct-2022 13:32:20 UTC] PHP   4. require_once() /Users/faratim/Local Sites/fictional-university/app/public/wp-config.php:91
+[29-Oct-2022 13:32:20 UTC] PHP   5. do_action() /Users/faratim/Local Sites/fictional-university/app/public/wp-settings.php:576
+[29-Oct-2022 13:32:20 UTC] PHP   6. WP_Hook->do_action() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/plugin.php:476
+[29-Oct-2022 13:32:20 UTC] PHP   7. WP_Hook->apply_filters() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:331
+[29-Oct-2022 13:34:20 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 307
+[29-Oct-2022 13:34:20 UTC] PHP Stack trace:
+[29-Oct-2022 13:34:20 UTC] PHP   1. {main}() /Users/faratim/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0
+[29-Oct-2022 13:34:20 UTC] PHP   2. require_once() /Users/faratim/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:22
+[29-Oct-2022 13:34:20 UTC] PHP   3. require_once() /Users/faratim/Local Sites/fictional-university/app/public/wp-load.php:50
+[29-Oct-2022 13:34:20 UTC] PHP   4. require_once() /Users/faratim/Local Sites/fictional-university/app/public/wp-config.php:91
+[29-Oct-2022 13:34:20 UTC] PHP   5. do_action() /Users/faratim/Local Sites/fictional-university/app/public/wp-settings.php:576
+[29-Oct-2022 13:34:20 UTC] PHP   6. WP_Hook->do_action() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/plugin.php:476
+[29-Oct-2022 13:34:20 UTC] PHP   7. WP_Hook->apply_filters() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:331
+[29-Oct-2022 13:35:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 307
+[29-Oct-2022 13:35:58 UTC] PHP Stack trace:
+[29-Oct-2022 13:35:58 UTC] PHP   1. {main}() /Users/faratim/Local Sites/fictional-university/app/public/index.php:0
+[29-Oct-2022 13:35:58 UTC] PHP   2. require() /Users/faratim/Local Sites/fictional-university/app/public/index.php:17
+[29-Oct-2022 13:35:58 UTC] PHP   3. require_once() /Users/faratim/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[29-Oct-2022 13:35:58 UTC] PHP   4. require_once() /Users/faratim/Local Sites/fictional-university/app/public/wp-load.php:50
+[29-Oct-2022 13:35:58 UTC] PHP   5. require_once() /Users/faratim/Local Sites/fictional-university/app/public/wp-config.php:91
+[29-Oct-2022 13:35:58 UTC] PHP   6. do_action() /Users/faratim/Local Sites/fictional-university/app/public/wp-settings.php:576
+[29-Oct-2022 13:35:58 UTC] PHP   7. WP_Hook->do_action() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/plugin.php:476
+[29-Oct-2022 13:35:58 UTC] PHP   8. WP_Hook->apply_filters() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:331
+[29-Oct-2022 13:36:20 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 307
+[29-Oct-2022 13:36:20 UTC] PHP Stack trace:
+[29-Oct-2022 13:36:20 UTC] PHP   1. {main}() /Users/faratim/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0
+[29-Oct-2022 13:36:20 UTC] PHP   2. require_once() /Users/faratim/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:22
+[29-Oct-2022 13:36:20 UTC] PHP   3. require_once() /Users/faratim/Local Sites/fictional-university/app/public/wp-load.php:50
+[29-Oct-2022 13:36:20 UTC] PHP   4. require_once() /Users/faratim/Local Sites/fictional-university/app/public/wp-config.php:91
+[29-Oct-2022 13:36:20 UTC] PHP   5. do_action() /Users/faratim/Local Sites/fictional-university/app/public/wp-settings.php:576
+[29-Oct-2022 13:36:20 UTC] PHP   6. WP_Hook->do_action() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/plugin.php:476
+[29-Oct-2022 13:36:20 UTC] PHP   7. WP_Hook->apply_filters() /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:331
