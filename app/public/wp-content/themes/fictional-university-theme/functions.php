@@ -21,4 +21,26 @@ function university_features()  {
 }
 
 add_action('after_setup_theme', 'university_features');
+
+// Right before we get the posts with the WP Query, WP will pass us the WPQuery object which we will use (a variable passed in as $query)
+function university_adjust_queries($query) {
+    // only use this filter if you're not in admin, it's not an event page, and it's not a custom query
+    if (!is_admin() AND is_post_type_archive('event') AND $query->is_main_query()) {
+        // filter out past events, order ASC
+        $today = date('Ymd');
+        $query->set('meta_key', 'event_date');
+        $query->set('orderby', 'meta_value_num');
+        $query->set('order', 'ASC');
+        $query->set('meta_query', array(
+            array(
+              'key' => 'event_date',
+              'compare' => '>=',
+              'value' => $today,
+              'type' => 'numeric'
+            )
+            ));
+    }
+}
+
+add_action('pre_get_posts', 'university_adjust_queries');
 ?>
