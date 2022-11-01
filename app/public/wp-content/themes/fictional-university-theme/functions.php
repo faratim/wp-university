@@ -13,7 +13,7 @@ add_action('wp_enqueue_scripts', 'university_files');
 
 function university_features()  {
 
-    // *** IF WE WANT WORDPRES DYNAMIC MENU, WHICH WE WON'T FOR THIS PROJECT *** //
+    // *** IF WE WANT WORDPRESS DYNAMIC MENU, WHICH WE WON'T FOR THIS PROJECT *** //
     //     register_nav_menu('headerMenuLocation', 'Header Menu Location');
     //     register_nav_menu('footerLocationOne', 'Footer Location One');
     //     register_nav_menu('footerLocationTwo', 'Footer Location Two');
@@ -24,7 +24,15 @@ add_action('after_setup_theme', 'university_features');
 
 // Right before we get the posts with the WP Query, WP will pass us the WPQuery object which we will use (a variable passed in as $query)
 function university_adjust_queries($query) {
-    // only use this filter if you're not in admin, it's not an event page, and it's not a custom query
+    // only use this filter if you're not in admin, it's a program archive page, and it's not a custom query
+    if(!is_admin() AND is_post_type_archive('program') AND is_main_query()) {
+        // show all programs in alphabetical order
+        $query->set('orderby', 'title');
+        $query->set('order', 'ASC');
+        $query->set('posts_per_page', -1);
+    }
+    
+     // only use this filter if you're not in admin, it's not an event page, and it's not a custom query
     if (!is_admin() AND is_post_type_archive('event') AND $query->is_main_query()) {
         // filter out past events, order ASC
         $today = date('Ymd');
