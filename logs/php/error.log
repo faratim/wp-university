@@ -196,3 +196,11 @@ Stack trace:
 #2 /Users/faratim/Local Sites/fictional-university/app/public/index.php(17): require('/Users/faratim/...')
 #3 {main}
   thrown in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 7
+[06-Dec-2022 19:39:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 6 and exactly 1 expected in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(6): pageBanner()
+#1 /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/faratim/...')
+#2 /Users/faratim/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/faratim/...')
+#3 /Users/faratim/Local Sites/fictional-university/app/public/index.php(17): require('/Users/faratim/...')
+#4 {main}
+  thrown in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
