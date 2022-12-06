@@ -182,3 +182,17 @@ Stack trace:
 [31-Oct-2022 20:59:15 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 29
 [31-Oct-2022 21:11:06 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 44
 [01-Nov-2022 00:27:20 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 50
+[06-Dec-2022 18:51:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getField() in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php:7
+Stack trace:
+#0 /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/faratim/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/faratim/...')
+#2 /Users/faratim/Local Sites/fictional-university/app/public/index.php(17): require('/Users/faratim/...')
+#3 {main}
+  thrown in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 7
+[06-Dec-2022 18:51:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getField() in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php:7
+Stack trace:
+#0 /Users/faratim/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/faratim/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/faratim/...')
+#2 /Users/faratim/Local Sites/fictional-university/app/public/index.php(17): require('/Users/faratim/...')
+#3 {main}
+  thrown in /Users/faratim/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 7
